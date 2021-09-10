@@ -18,7 +18,8 @@ class Tareas{
 
     crearTarea(des = ''){
         const tarea = new Tarea(des); 
-        this._listado[tarea.id] = tarea;        
+        this._listado[tarea.id] = tarea; 
+             
     }
 
     cargarTareasFromArray(tareas = []){
