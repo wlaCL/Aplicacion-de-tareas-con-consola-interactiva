@@ -1,6 +1,6 @@
 {
   "name": "04-Aplicacion-Tareas",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "inquirer": "^8.1.2",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "yargs": "^17.1.1"
   }
 }

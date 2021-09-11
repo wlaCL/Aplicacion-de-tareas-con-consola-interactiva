@@ -6,6 +6,7 @@ const { mostrarMenu, Pausa } = require('./helpers/mensajes');
 const Tareas = require('./models/tareas');
 const Tarea = require('./models/tarea');
 const { guardarDb, leerDb } = require('./helpers/guardarArchivo');
+const { argv } = require('yargs');
 
 const main = async() =>{    
     let opt = '';
@@ -67,7 +68,8 @@ const main = async() =>{
     //tareas._listado[tarea.id] = tarea;
     //console.log(tareas);
     
-    
+    //construcción de consola de ayuda 
+    //console.log(argv.d);
 
 }
 main();
